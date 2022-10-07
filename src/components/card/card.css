@@ -1,0 +1,79 @@
+.cards {
+    position: relative;
+    height: 180px;
+}
+.cards-info {
+    display: flex;
+}
+.content {
+    display: flex;
+    background-color: hsl(235, 46%, 20%);
+    flex-direction: column;
+    padding: 2vh 3vh;
+    /* padding-right: 14vh; */
+    width: 33vh;
+    border-radius: 15px;
+    position: absolute;
+    top: 25%;
+}
+.content:hover {
+    background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+}
+
+.cards-img {
+    display: flex;
+}
+.cards-img div {
+    display: flex;
+    /* background-color: hsl(15, 100%, 70%); */
+    padding: 5vh 16.5vh;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.cards-img div img {
+    position: absolute;
+    top: -8%;
+    right: 10%;
+}
+
+.last-week {
+    color: hsl(236, 100%, 87%);
+    font-family: RubikLight;
+    font-size: 12px;
+}
+.hours {
+    font-size: 40px;
+    font-family: RubikLight;
+}
+
+h4 {
+    font-family: RubikLight;
+    font-size: 18px !important;
+}
+/* CLASS UTILE POUR LE DATA.JSON */
+.light-red {
+    background-color:hsl(15, 100%, 70%) ;
+}
+
+.soft-blue {
+    background-color:hsl(195, 74%, 62%) ;
+}
+
+.light-red-study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.lime-green {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.violet {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.soft-orange {
+    background-color: hsl(43, 84%, 65%);
+}

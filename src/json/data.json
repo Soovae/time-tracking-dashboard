@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Work",
+    "link": "./img/icon-work.svg",
+    "color":"light-red",
+    "timeframes": {
+      "daily": {
+        "current": 5,
+        "previous": 7,
+        "day": "daily"
+      },
+      "weekly": {
+        "current": 32,
+        "previous": 36,
+        "day": "week"
+      },
+      "monthly": {
+        "current": 103,
+        "previous": 128,
+        "day": "month"
+      }
+    }
+  },
+  {
+    "title": "Play",
+    "link": "./img/icon-play.svg",
+    "color": "soft-blue",
+    "timeframes": {
+      "daily": {
+        "current": 1,
+        "previous": 2,
+        "day": "daily"
+      },
+      "weekly": {
+        "current": 10,
+        "previous": 8,
+        "day": "week"
+      },
+      "monthly": {
+        "current": 23,
+        "previous": 29,
+        "day": "month"
+      }
+    }
+  },
+  {
+    "title": "Study",
+    "link": "./img/icon-study.svg",
+    "color": "light-red-study",
+    "timeframes": {
+      "daily": {
+        "current": 0,
+        "previous": 1,
+        "day": "daily"
+      },
+      "weekly": {
+        "current": 4,
+        "previous": 7,
+        "day": "week"
+      },
+      "monthly": {
+        "current": 13,
+        "previous": 19,
+        "day": "month"
+      }
+    }
+  },
+  {
+    "title": "Exercise",
+    "link": "./img/icon-exercise.svg",
+    "color": "lime-green",
+    "timeframes": {
+      "daily": {
+        "current": 1,
+        "previous": 1,
+        "day": "daily"
+      },
+      "weekly": {
+        "current": 4,
+        "previous": 5,
+        "day": "week"
+      },
+      "monthly": {
+        "current": 11,
+        "previous": 18,
+        "day": "month"
+      }
+    }
+  },
+  {
+    "title": "Social",
+    "link": "./img/icon-social.svg",
+    "color": "violet",
+    "timeframes": {
+      "daily": {
+        "current": 1,
+        "previous": 3,
+        "day": "daily"
+      },
+      "weekly": {
+        "current": 5,
+        "previous": 10,
+        "day": "week"
+      },
+      "monthly": {
+        "current": 21,
+        "previous": 23,
+        "day": "month"
+      }
+    }
+  },
+  {
+    "title": "Self Care",
+    "link": "./img/icon-self-care.svg",
+    "color": "soft-orange",
+    "timeframes": {
+      "daily": {
+        "current": 0,
+        "previous": 1,
+        "day": "daily"
+      },
+      "weekly": {
+        "current": 2,
+        "previous": 2,
+        "day": "week"
+      },
+      "monthly": {
+        "current": 7,
+        "previous": 11,
+        "day": "month"
+      }
+    }
+  }
+]

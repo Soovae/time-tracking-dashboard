@@ -1,0 +1,132 @@
+.card-person {
+    position: relative;
+}
+.body-person{
+    background-color: hsl(246, 80%, 60%);
+    width: 13.5vw;
+    border-radius: 15px;
+    padding-bottom: 6.5vh;
+    position: relative;
+    z-index: 5;
+}
+
+.pick-jeremy{
+    padding-left: 1.5vw;
+    padding-top: 3vh;
+    padding-bottom: 2.5vh;
+}
+
+.pick-jeremy img {
+    width: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.report {
+    font-size: 13px;
+    color:hsl(236, 100%, 87%);
+    font-family: RubikLight;
+    padding-left: 1.5vw;
+}
+
+.jeremy-name {
+    font-size: 30px;
+    font-family: RubikLight;
+    padding-left: 1.5vw;
+    color: white;
+    line-height: 120%;
+}
+
+.footer-person {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    position: absolute;
+    width: 13.5vw;
+    top: 88.5%;
+}
+
+.list-person {
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
+.footer-person ul {
+    padding-left: 0;
+}
+
+.footer-person li {
+    list-style: none;
+    color: hsl(236, 100%, 87%);
+    cursor: pointer;
+    padding-left: 1.5vw;
+    font-family: RubikLight;
+}
+
+@media (max-width: 480px) {
+    .body-person {
+        width: 33vh;
+        display: flex;
+        padding-bottom: 0;
+        margin-bottom: 9vh;
+    }
+    .jeremy-name {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .person {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pick-jeremy img {
+        width: 50px;
+    }
+    .pick-jeremy {
+        padding-left: 3vh;
+        padding-right: 1vw;
+    }
+    .footer-person{
+        width: 33vh;
+        top: 70%;
+    }
+    .ul-list {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+} 
+
+@media (min-width: 480px) and (max-width: 995px) {
+    .body-person, .footer-person {
+        width: 28vh;
+    }
+    .card-person{
+        transform: translateY(45%) translateX(30%);
+        
+    }
+}
+
+@media (min-width: 995px) and (max-width: 1100px) {
+    .body-person, .footer-person {
+        width: 30vh;
+    }
+    .footer-person{
+        top: 93%;
+    }
+    .card-person {
+        transform: translateX(30%);
+    }
+
+}
+
+@media (min-width: 1100px) and (max-width: 1500px) {
+    .footer-person{
+        top: 92%
+    }
+    .body-person{
+        padding-bottom: 7vh;
+    }
+    .card-person {
+        transform: translateX(28%);
+    }
+}

@@ -1,0 +1,50 @@
+body {
+    background-color: hsl(226, 43%, 10%) !important;
+    font-family: Rubik;
+}
+
+#body {
+    display: flex;
+    gap: 4vh;
+    transform: translateY(40%);
+}
+.container2 {
+    max-width: 1005px;
+    margin: auto;
+}
+.all-card {
+    row-gap: 4vh;
+    column-gap: 4vh;
+    width: 805px;
+}
+
+@media (max-width: 480px) {
+    #body {
+        transform: translateY(2%);
+    }
+    .container2 {
+        flex-wrap: wrap;
+    }
+    .all-card{
+        justify-content: center;
+    }
+    .querie {
+        margin: auto;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 995px) {
+    #body {
+        transform: translateY(3.5%);
+    }
+    .all-card {
+        justify-content: center;
+    }
+}
+
+
+@media (min-width: 1100px) and (max-width: 1500px) {
+    #body {
+        transform: translateY(33%);
+    }
+}
